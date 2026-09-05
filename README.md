@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Create the music folder and drop your `.mp3` files into it:
 
 ```bash
-mkdir musicas
+mkdir music
 ```
 
 Run it:
@@ -51,7 +51,7 @@ Tocando Numb_Encore_Linkin_Park_JAY-Z...
 Fim.
 ```
 
-> The `musicas/` folder is not version-controlled — audio files are large
+> The `music/` folder is not version-controlled — audio files are large
 > and copyrighted. Each user brings their own collection.
 
 ## Project structure
@@ -63,7 +63,7 @@ tocador/
 ├── README.md
 ├── requirements.txt
 ├── tocador.py          # entry point
-└── musicas/            # .mp3 files (not tracked)
+└── music/            # .mp3 files (not tracked)
 ```
 
 ## Dependencies

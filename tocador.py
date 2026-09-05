@@ -4,10 +4,10 @@ from pathlib import Path
 from playsound3 import playsound
 import random
 
-pasta=Path(__file__).parent / 'musicas'
-library=list(pasta.glob('*.mp3'))
-tocar=random.choice(library)
+folder=Path(__file__).parent / 'music'
+library=list(folder.glob('*.mp3'))
+song=random.choice(library)
 
-print(f'Tocando {tocar.stem}...')
-playsound(tocar)
-print('Fim.')
+print(f'Playing {song.stem} ...')
+playsound(song)
+print('End.')

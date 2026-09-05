@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Crie a pasta de músicas e coloque seus arquivos `.mp3` nela:
 
 ```bash
-mkdir musicas
+mkdir music
 ```
 
 Execute:
@@ -51,7 +51,7 @@ Tocando Numb_Encore_Linkin_Park_JAY-Z...
 Fim.
 ```
 
-> A pasta `musicas/` não é versionada — arquivos de áudio são grandes e
+> A pasta `music/` não é versionada — arquivos de áudio são grandes e
 > têm direitos autorais. Cada usuário usa a própria coleção.
 
 ## Estrutura
